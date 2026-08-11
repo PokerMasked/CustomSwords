@@ -1,0 +1,10 @@
+name: CustomSwords
+version: 1.0
+main: me.poker.customswords.Customswords
+author: 1.21.11
+api-version: '1.21'
+commands:
+  customsword:
+    description: 5 Custom Swords That are fun for UnstableSMP gameplay!
+    aliases: [cs, sword]
+    permission: customswords.admin
