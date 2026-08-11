@@ -1,0 +1,73 @@
+prefix: "&#FF55FF&lFFA &7» &r"
+messages:
+  no_permission: "&cYou do not have permission to use this command."
+  player_not_found: "&cPlayer not found."
+  sword_not_found: "&cSword not found. Use /cs list for available swords."
+  given_sword: "&aGiven %sword% &ato %player%."
+  reloaded: "&aConfig reloaded successfully."
+  cooldown: "&cYou must wait %time% seconds to use this ability again."
+  list_header: "&8=== &dCustom Swords &8==="
+  list_format: " &7- &f%sword%"
+
+swords:
+  flamesword:
+    display_name: "&#FF4500&lFlame Sword"
+    lore:
+      - "&7A sword forged in fire."
+      - "&7"
+      - "&e&lAbility: &fShift + F"
+      - "&7Empowers your next 5 hits with"
+      - "&7+4 bonus attack damage and"
+      - "&7summons a ring of fire."
+    material: GOLDEN_SWORD
+    cooldown: 120
+    sound: ENTITY_BLAZE_SHOOT
+
+  wemmbuswing:
+    display_name: "&#00BFFF&lWemmbu Swing"
+    lore:
+      - "&7A blade that cuts the wind."
+      - "&7"
+      - "&e&lAbility: &fShift + Right Click"
+      - "&7Dashes you violently in the"
+      - "&7direction you are looking."
+    material: IRON_SWORD
+    cooldown: 100
+    sound: BLOCK_ANVIL_PLACE
+
+  spokewand:
+    display_name: "&#8A2BE2&lSpoke Wand"
+    lore:
+      - "&7Stops Any entity in sight."
+      - "&7"
+      - "&e&lAbility: &fShift + Right Click"
+      - "&7Freezes all entities in a 3 block"
+      - "&7radius for 4 whole seconds."
+    material: STICK
+    cooldown: 120
+    sound: ENTITY_IRON_GOLEM_DEATH
+
+  dancesword:
+    display_name: "&#FF1493&lDance Sword"
+    lore:
+      - "&7Dont let anyone hit you."
+      - "&7"
+      - "&e&lAbility: &fShift + F"
+      - "&7Grants invincibility from all"
+      - "&7damage for 5 seconds."
+    material: DIAMOND_SWORD
+    cooldown: 120
+    sound: ENTITY_ENDERMAN_SCREAM
+
+  theosblast:
+    display_name: "&#32CD32&lTheos Blast"
+    lore:
+      - "&7Create a massive explosion."
+      - "&7"
+      - "&e&lAbility: &fShift + Right Click"
+      - "&7Creates a massive explosion equivalent"
+      - "&7to 8 TNT minecarts without harming"
+      - "&7yourself or surrounding blocks."
+    material: NETHERITE_SWORD
+    cooldown: 120
+    sound: ENTITY_GENERIC_EXPLODE
